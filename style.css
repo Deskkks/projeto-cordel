@@ -11,17 +11,21 @@ header{
     background: black;
     color: white;
     text-align: center;
-    padding: 40px;
+    padding-top: 50px;
     box-shadow: 1px 1px 3px black;
 }
 
 header > p{
     font-family: Verdana, sans-serif;
+    font-size: 1.5em;
+    margin: 0;
+    padding-bottom: 50px;
 }
 
 header > h1{
     font-family: 'passion one';
-    font-size: 4em;
+    font-size: 10vw;
+    font-variant: small-caps;
 }
 
 a{
@@ -36,21 +40,31 @@ a:hover{
 
 p{
     font-family: Sriracha;
-    font-size: 2em;
-    margin: 0 10px;
+    font-size: 3.5vw;
+    margin: 80px 10px;
 }
 
-section{
-    margin: 50px 10px;
-}
-
-#f1{
+#imagem1{
     background: black url(/imagens/background001.jpg) center no-repeat fixed;
     background-size: cover;
-    height: 600px;
 }
-#f1 > p{
+
+#imagem2{
+    background: black url(/imagens/background002.jpg) center no-repeat fixed;
+    background-size: cover;
+}
+
+div > p{
+    display: inline-block;
     color: white;
-    background-color: rgba(0, 0, 0, 0.158);
-    
+    background-color: rgba(0, 0, 0, 0.600);
+    padding: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5px;
 }
